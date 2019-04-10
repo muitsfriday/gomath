@@ -1,0 +1,2 @@
+# gomath
+A Go mathematics.
