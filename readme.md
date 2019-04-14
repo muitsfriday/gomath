@@ -1,13 +1,13 @@
-#gomath
+# gomath
 
 
-# Core
+## Core
 
 ```
 import "github.com/muitsfriday/gomath/core"
 ```
 
-## Factorial
+### Factorial
 
 Find the factorial number.
 
@@ -16,13 +16,13 @@ core.Factorial(10)
 ```
 
 
-# Combinatoric
+## Combinatoric
 
 ```
 import "github.com/muitsfriday/gomath/combi"
 ```
 
-## nCr
+### nCr
 
 Find the combination number of C(n, r)
 
@@ -30,7 +30,7 @@ Find the combination number of C(n, r)
 combi.Combination(10, 5)
 ```
 
-## nPr
+### nPr
 
 Find the permutation number of P(n, r)
 
@@ -40,14 +40,14 @@ combi.Permutation(10, 1)
 ```
 
 
-# Probability
+## Probability
 
 Import the package
 ```
 import	"github.com/muitsfriday/gomath/prob"
 ```
 
-## Binomial Distibution
+### Binomial Distibution
 
 Create binomial distribution function with `prob.Bin(n int, p float64)`.
 
@@ -60,7 +60,7 @@ pmf := prob.Bin(10, float64(0.5))
 pval := pmf(5) 
 ```
 
-## Poisson Distibution
+### Poisson Distibution
 
 Create binomial poisson function with `prob.Pois(l float64)`.
 
